@@ -7,6 +7,10 @@
     overflow-x: hidden;
 }
 
+body {
+    scroll-behavior: smooth;
+}
+
 /* For Navbar: */
 #navbar {
     z-index: 10000;
@@ -67,13 +71,27 @@
     background-color: grey;
 }
 
+.btn-welcome {
+    margin-top: 5px;
+    padding: 10px 40px 10px 40px;
+    border-radius: 20px;
+    border: none;
+    background-color: antiquewhite;
+    transition-duration: 0.5s;
+    font-weight: 400;
+    font-size: medium;
+}
+
+.btn-welcome:hover {
+    margin-top: 20px;
+    color: antiquewhite;
+    background-color: black;
+    transition-duration: 0.5s;
+}
+
 /* For section Projects: */
-.projects {
-    height: 100vh;
-    /* For 100% screen height */
-    width: 100vw;
-    /* For 100% screen width */
-    background-color: beige;
+.container-projects {
+    background-color: antiquewhite;
 }
 
 .projects {
@@ -87,33 +105,34 @@
     display: flex;
     justify-content: center;
     align-items: center;
+
     padding: 2em;
     font-weight: bold;
-    background-color: rgba(245, 245, 220, 0.521);
 }
 
 /* For card project: */
-.projects .project-tile {
-    height: 50vh;
+.project-tile {
+    height: fit-content;
     width: 25vw;
     margin: 2em;
 }
 
-.project-tile .link-project {
+.link-project {
     display: flex;
     flex-direction: column;
     text-decoration: none;
 }
 
-.link-project .contentText-link {
-    height: 10vh;
+.contentText-link {
     display: flex;
     justify-content: center;
+
+    height: 10vh;
     align-items: center;
     background-color: rgb(190, 138, 138);
 }
 
-.link-project .contentLink-project {
+.contentLink-project {
     height: 40vh;
     overflow: hidden;
     object-fit: cover;
@@ -128,8 +147,6 @@
 
 /* For section profile: */
 .profile-section {
-    height: 50vh;
-    /* For 100% screen height */
     width: 100vw;
     /* For 100% screen width */
     background-color: grey;

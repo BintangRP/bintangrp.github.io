@@ -1,141 +1,243 @@
 <!DOCTYPE html>
 <html lang="en">
+	<head>
+		<meta charset="UTF-8" />
+		<meta http-equiv="X-UA-Compatible" content="IE=edge" />
+		<meta
+			name="viewport"
+			content="width=device-width, initial-scale=1.0"
+		/>
 
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Personal Portfolio Webpage Bintang Rizqi Pasha</title>
-    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.8.2/font/bootstrap-icons.css">
-    <link rel="stylesheet" href="styles.css">
-</head>
+		<title>Personal Portfolio Webpage Bintang Rizqi Pasha</title>
+		<!-- logo web -->
+		<link rel="icon" href="img\logo.jpeg" style="object-fit: contain" />
+		<link rel="stylesheet" href="style\styles.css" />
+		<script src="https://cdn.tailwindcss.com"></script>
+	</head>
 
-<body>
-    <!-- navbar -->
-    <nav id="navbar">
-        <div class="navbar">
-            <div class="logo">
-                <h1>Porto Bintang</h1>
-            </div>
-            <div class="links">
-                <a href="#welcome-section" class="nav-links">About</a>
-                <a href="#projects" class="nav-links">Project</a>
-                <a href="#profile-section" class="nav-links">Contact</a>
-            </div>
-        </div>
-    </nav>
+	<body>
+		<!-- navbar -->
+		<nav id="navbar">
+			<div class="navbar">
+				<a href="index.html"
+					><div class="logo mx-1 my-1">
+						<img
+							src="img/logo.jpeg"
+							alt="logo website"
+							width="50px"
+							height="50px"
+							class="rounded mr-2"
+						/>
+						<h1>Porto Bintang</h1>
+					</div></a
+				>
 
-    <!-- welcome section -->
-    <section id="welcome-section">
-        <div class="welcome-section">
-            <h1>Hi! My name Bintang &#128075;</h1>
-            <h2>Mahasiswa ITTP (a Web Developer &#128187;)</h2>
-        </div>
-    </section>
+				<div class="links">
+					<a href="#welcome-section" class="nav-links">About</a>
+					<a href="#projects" class="nav-links">Project</a>
+					<a href="#profile-section" class="nav-links"
+						>Contact</a
+					>
+				</div>
+			</div>
+		</nav>
+		<!-- navbar end -->
 
-    <!-- project section -->
-    <section id="projects">
-        <div class="h2-projects">
-            <h2>My Projects</h2>
-        </div>
-        <div class="projects">
-            <!-- project card -->
-            <div class="project-tile">
-                <a href="https://codepen.io/pen?template=LYjzXGy" class="link-project">
-                    <div class="contentText-link">
-                        <h3>First Website</h3>
-                    </div>
-                    <div class="contentLink-project">
-                        <img src="https://images.unsplash.com/photo-1507238691740-187a5b1d37b8?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=455&q=80"
-                            alt="first-website-page">
-                    </div>
-                </a>
-            </div>
+		<!-- welcome section -->
 
-            <div class="project-tile">
-                <a href="https://codepen.io/pen?template=zYRoEyK" class="link-project">
-                    <div class="contentText-link">
-                        <h3>The Landing Page</h3>
-                    </div>
-                    <div class="contentLink-project">
-                        <img src="https://images.unsplash.com/photo-1507238691740-187a5b1d37b8?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=455&q=80"
-                            alt="first-website-page">
-                    </div>
-                </a>
-            </div>
+		<div class="welcome-section">
+			<div class="mx-auto my-auto">
+				<h1
+					class="mx-auto max-w-10xl text-center text-4xl font-bold sm:text-xl md:text-2xl lg:text-3xl xl:text-5xl truncate"
+				>
+					Welcome to Bintang RP Portofolio Web &#128075;
+				</h1>
+				<h2
+					class="text-center text-2xl opacity-70 font-semibold mt-2 sm:text-lg md:text-xl lg:text-2xl truncate"
+				>
+					a Web Developer &#128187;
+				</h2>
+				<p class="text-center mx-auto my-6 max-w-3xl text-lg">
+					A Web Developer from Indonesia. I'm currently learning
+					Web Development and I'm looking for an internship or a
+					job as a Web Developer.
+				</p>
+				<a href="http://wa.me/6283877626559" target="_blank"> </a>
+				<button
+					class="flex justify-center mx-auto btn-welcome border-solid"
+				>
+					Hubungi saya
+				</button>
+			</div>
+		</div>
 
-            <div class="project-tile">
-                <a href="https://codepen.io/pen?template=BaREYWK" class="link-project">
-                    <div class="contentText-link">
-                        <h3>Survey Form</h3>
-                    </div>
-                    <div class="contentLink-project">
-                        <img src="https://images.unsplash.com/photo-1507238691740-187a5b1d37b8?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=455&q=80"
-                            alt="first-website-page">
-                    </div>
-                </a>
-            </div>
+		<!-- welcome end -->
 
-            <div class="project-tile">
-                <a href="https://codepen.io/pen?template=rNmrQEb " class="link-project">
-                    <div class="contentText-link">
-                        <h3>Tribute Page</h3>
-                    </div>
-                    <div class="contentLink-project">
-                        <img src="https://images.unsplash.com/photo-1507238691740-187a5b1d37b8?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=455&q=80"
-                            alt="first-website-page">
-                    </div>
-                </a>
-            </div>
-        </div>
-    </section>
+		<!-- project start -->
+		<section id="projects">
+			<div class="projects">
+				<div class="">
+					<h2 class="text-center">My Projects</h2>
+				</div>
+				<div class="projects">
+					<!-- project card -->
+				</div>
+			</div>
+		</section>
+		<!-- project end -->
 
-    <section id="profile-section">
-        <div class="profile-section">
-            <h2>My Profile</h2>
-            <hr>
-            <div class="profile-links">
-                <!-- github -->
-                <a id="profile-link" href="https://github.com/BintangRP" class="profile-link" target="_blank">
-                    <div class="columns-link">
-                        <i class="bi bi-github"></i>
-                        <span>Github</span>
-                    </div>
-                </a>
+		<!-- project section -->
+		<section>
+			<div class="container-projects">
+				<div class="h2-projects">
+					<h2>My Projects</h2>
+				</div>
+				<div class="projects">
+					<!-- project card -->
+					<div class="project-tile">
+						<a
+							href="https://merustic.vercel.app"
+							class="link-project"
+							target="_blank"
+						>
+							<div class="contentText-link">
+								<h3>Merustic</h3>
+							</div>
+							<div class="contentLink-project">
+								<img
+									src="img\merustic.png"
+									alt="first-website-page"
+								/>
+							</div>
+						</a>
+					</div>
 
-                <!-- linkedln  -->
-                <a id="profile-link" href="https://linkedin.com/in/bintang-rizqi-pasha-8a1111211/" class="profile-link"
-                    target="_blank">
-                    <div class="columns-link">
-                        <i class="bi bi-linkedin"></i>
-                        <span>Linkedln</span>
-                    </div>
-                </a>
+					<div class="project-tile">
+						<a
+							href="https://codepen.io/pen?template=zYRoEyK"
+							class="link-project"
+							target="_blank"
+						>
+							<div class="contentText-link">
+								<h3>The Landing Page</h3>
+							</div>
+							<div class="contentLink-project">
+								<img
+									src="https://images.unsplash.com/photo-1507238691740-187a5b1d37b8?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=455&q=80"
+									alt="first-website-page"
+								/>
+							</div>
+						</a>
+					</div>
 
-                <!-- Whatsapp -->
-                <a id="profile-link" href="wa.me/6283877626559" class="profile-link" target="_blank">
-                    <div class="columns-link">
-                        <i class="bi bi-whatsapp"></i>
-                        <span>Whatsapp</span>
-                    </div>
-                </a>
+					<div class="project-tile">
+						<a
+							href="https://codepen.io/pen?template=BaREYWK"
+							class="link-project"
+							target="_blank"
+						>
+							<div class="contentText-link">
+								<h3>Survey Form</h3>
+							</div>
+							<div class="contentLink-project">
+								<img
+									src="https://images.unsplash.com/photo-1507238691740-187a5b1d37b8?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=455&q=80"
+									alt="first-website-page"
+								/>
+							</div>
+						</a>
+					</div>
 
-                <!-- Youtube Channel -->
-                <a id="profile-link" href="youtube" class="profile-link" target="_blank">
-                    <div class="columns-link">
-                        <i class="bi bi-youtube"></i>
-                        <span>Youtube Channel</span>
-                    </div>
-                </a>
-            </div>
-            <section class="footer">
-                <footer>Made by BintangRP with &#10084;&#65039; </footer>
-            </section>
-        </div>
-    </section>
+					<div class="project-tile">
+						<a
+							href="https://codepen.io/pen?template=rNmrQEb "
+							class="link-project"
+							target="_blank"
+						>
+							<div class="contentText-link">
+								<h3>Tribute Page</h3>
+							</div>
+							<div class="contentLink-project">
+								<img
+									src="https://images.unsplash.com/photo-1507238691740-187a5b1d37b8?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=455&q=80"
+									alt="first-website-page"
+								/>
+							</div>
+						</a>
+					</div>
+				</div>
+			</div>
+		</section>
+		<!-- project end -->
 
+		<!-- profile start -->
+		<section id="profile-section">
+			<div class="profile-section">
+				<h2>My Profile</h2>
+				<hr />
+				<div class="profile-links">
+					<!-- github -->
+					<a
+						id="profile-link"
+						href="https://github.com/BintangRP"
+						class="profile-link"
+						target="_blank"
+					>
+						<div class="columns-link">
+							<i class="bi bi-github"></i>
+							<span>Github</span>
+						</div>
+					</a>
 
+					<!-- linkedln  -->
+					<a
+						id="profile-link"
+						href="https://linkedin.com/in/bintangrp"
+						class="profile-link"
+						target="_blank"
+					>
+						<div class="columns-link">
+							<i class="bi bi-linkedin"></i>
+							<span>Linkedln</span>
+						</div>
+					</a>
 
-</body>
+					<!-- Whatsapp -->
+					<a
+						id="profile-link"
+						href="https://wa.me/6283877626559"
+						class="profile-link"
+						target="_blank"
+					>
+						<div class="columns-link">
+							<i class="bi bi-whatsapp"></i>
+							<span>Whatsapp</span>
+						</div>
+					</a>
 
+					<!-- Youtube Channel -->
+					<a
+						id="profile-link"
+						href="youtube"
+						class="profile-link"
+						target="_blank"
+					>
+						<div class="columns-link">
+							<i class="bi bi-youtube"></i>
+							<span>Youtube Channel</span>
+						</div>
+					</a>
+				</div>
+				<!-- profile end -->
+
+				<!-- footer site -->
+				<section class="footer">
+					<footer>
+						Made by BintangRP with &#10084;&#65039;
+					</footer>
+				</section>
+				<!-- footer end -->
+			</div>
+		</section>
+	</body>
 </html>
