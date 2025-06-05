@@ -9,7 +9,7 @@ const Hero = () => {
 			<div className="flex items-center justify-center flex-row space-x-12 flex-wrap">
 				<div className="">
 					<img
-						src="./public/img/logo2.jpg"
+						src="/img/logo2.jpg"
 						alt="Bintang Rizqi Pasha"
 						className="w-50 h-50 rounded-full shadow-lg mb-12"
 					/>
